@@ -63,7 +63,7 @@ const genConfig = (params) => {
 
 const exec = () => {
     
-    shell.exec('java -jar ../target/1474__OpXPmx-1.0.jar -CONFIG configGen.txt', function(code, stdout, stderr) 
+    shell.exec('java -jar ./target/1474__OpXPmx-1.0.jar -CONFIG config.txt', function(code, stdout, stderr) 
     {
         console.log('Exit code:', code);
         console.log('Program output:', stdout);
