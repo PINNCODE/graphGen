@@ -85,10 +85,10 @@ const genInput = (param) => {
         case 'date':
             break;
         case 'rout':
-            input = `<div class='form-group'> <label for='${param.nombre}'>${param.nombre}</label> <input type='text' class='form-control' id='${param.nombre}'> <small id='${param.nombre}' class='form-text text-muted'>${param.descripcion}.</small> </div>`
+            input = `<div class='form-group'> <label for='${param.nombre}'>${param.nombre}</label> <input type='text' class='form-control' name='${param.nombre}'> <small id='${param.nombre}' class='form-text text-muted'>${param.descripcion}.</small> </div>`
             break;
         case 'rout_bin':
-            input = input = `<div class='form-group'> <label for='${param.nombre}'>${param.nombre}</label> <input type='text' class='form-control' id='${param.nombre}'> <small id='${param.nombre}' class='form-text text-muted'>${param.descripcion}.</small> </div>`
+            input = input = `<div class='form-group'> <label for='${param.nombre}'>${param.nombre}</label> <input type='text' class='form-control' name='${param.nombre}'> <small id='${param.nombre}' class='form-text text-muted'>${param.descripcion}.</small> </div>`
             break;
         default:
             input = param.tipo

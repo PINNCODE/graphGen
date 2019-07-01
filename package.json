@@ -9,6 +9,7 @@
   "author": "Eduardo Trujillo González",
   "license": "ISC",
   "dependencies": {
+    "async-shelljs": "^0.1.2",
     "body-parser": "^1.19.0",
     "cli-progress": "^2.1.1",
     "colors": "^1.3.3",
